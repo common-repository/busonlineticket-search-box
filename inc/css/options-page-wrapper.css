@@ -1,0 +1,121 @@
+/* 
+* Backend Styles
+* 
+*/
+
+.select2-results-dept-1 {
+	cursor: pointer;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.header-top {
+    background: #172f55;
+    padding: 0px 0px 0px 0px;
+    height: 80px;
+	display: flex;
+}
+
+.header-container {
+    max-width: 1300px;
+    margin: auto;
+	padding-left: 0px;
+	margin-left: 50px;
+}
+
+.header-row {
+    display: flex;
+
+}
+
+.header-logo-wrap {
+    width: 25%;
+}
+
+.header-logo-wrap img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.postbox-container {
+	min-width: 100%;
+}
+
+.wrap .otgs-notice.error {
+	display: none;
+}
+
+.wrap .notice {
+	display: none;
+}
+
+.wrap div.error {
+	display: none;
+}
+
+.postbox .inside {
+    padding: 0 20px 12px;
+}
+
+#poststuff h2 {
+	font-size: 18px;
+	padding: 0px 0px!important;
+}
+
+.button-primary {	
+	min-height: 30px!important;
+    font-size: 14px!important;
+	background: #92d050!important;
+	border-color: #92d050!important;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.form-group input {
+display: inline-block;
+}
+
+.form-group label {
+display: inline-block;
+// padding: 5px 0px 8px 12px;
+}
+
+#sub-container {
+	margin-bottom: 10px; /* Margin between containers */
+}
+
+@media (max-width: 767px) {
+	#post-body {
+		flex-direction: column;
+	}
+
+	#sub-container {
+		width: 100%;
+		margin-bottom: 5px; /* Adjust the margin between containers */
+	}
+
+	.postbody-container, .postbox-container {
+		margin-left: 0 !important; /* Remove margin-left in mobile view */
+		padding-left: 0 !important;
+	}
+	
+	.meta-box-sortables {		
+		width: 100% !important;
+	}
+	
+	.header-logo-wrap {
+		width: 85% !important;
+	}
+}

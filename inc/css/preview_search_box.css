@@ -1,0 +1,396 @@
+#powerby {
+	display:block;
+}
+
+.divReservationTypes_head {
+	display:none;
+}
+
+.TraveDates {	
+	cursor: pointer;
+}
+
+/*==========================For Search Box Size 265px*424px=====================*/
+#divReservation_265_424 ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#divReservation_265_424 .li-select-from, #divReservation_265_424 .li-select-to {
+    cursor: pointer;
+}
+
+#divReservation_265_424 .select2-results {
+    max-height: 200px;
+    padding: 0 0 0 4px;
+    margin: 4px 4px 4px 0;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#divReservation_265_424 {
+    width: 265px;
+    /* height: 410px; */
+}
+
+#divReservation_265_424 input[type='text'] {
+	width: 218px;
+	height: 29px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	padding: 5px 10px;
+	font-weight: 200;
+	font-size: 12px;
+	font-family: Verdana;
+	background: linear-gradient(to bottom, rgb(252,254,255), rgb(238, 231, 231) 138%);
+}
+
+#divReservation_265_424 input[type='text']:hover {
+	border: 1px solid #aaa;
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+#divReservation_265_424 select {
+	width: 218px;
+	height: 29px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	font-weight: 200;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+#divReservation_265_424 select:hover {
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+#divReservation_inner_265_424 {
+    width: 100%;
+    /* height: 240px; */
+    margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#divReservationMain_265_424 {
+    margin: 1%;
+    border: 2px solid rgb(145,185,228);
+    border-radius: 6px;
+    /* height: 110%; */
+	overflow: hidden;
+}
+
+#divReservation_title_265_424 {
+    background: linear-gradient(to bottom, rgb(252,254,255), rgb(233, 243, 255) 100%);
+    height: 33px;
+    line-height: 32px;
+    padding-left: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0,0,0);
+}
+
+input[type="text"]{ height: 17px; padding: 5px 10px;}
+
+
+#divReservation_265_424 .divReservationTypes {
+    padding-left: 3%;
+    width: 97%;
+    float: left;
+}
+
+#divReservation_265_424 .divReservationTypes_head {
+    color: rgb(140,85,114);
+    width: 32%;
+    float: left;
+    background-color: rgb(221,221,221);
+    height: 29px;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid rgb(170,170,170);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#divReservation_265_424 .divReservationTypes_head:hover, #divReservation_265_424 .divReservationTypes_head.active {
+	color: #ffffff;
+	background-color: rgb(24,138,172);
+}
+
+#tbl_reservation_265_424 {
+    width: 89%;
+    margin: 0 auto;
+}
+
+#tbl_reservation_265_424 td {
+	padding: 2px;
+}
+
+#btnSearchNow_265_424 {
+    width: 125px;
+    height: 29px;
+    border: 1px solid #F75F5F;
+    background: linear-gradient(to bottom, rgb(234, 220, 1), rgb(232, 171, 0) 138%);
+    border-radius: 4px;
+}
+
+#btnSearchNow_265_424:hover {
+	color: #fff;
+	background: linear-gradient(to bottom, rgb(232, 171, 0), rgb(234, 220, 1) 138%);
+}
+
+/*==========================For Search Box Size 315px*291px=====================*/
+#divReservation_315_291 ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#divReservation_315_291 .li-select-from, #divReservation_315_291 .li-select-to {
+    cursor: pointer;
+}
+
+#divReservation_315_291 .select2-results {
+    max-height: 118px;
+    padding: 0 0 0 4px;
+    margin: 4px 4px 4px 0;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#divReservation_315_291 {
+    width: 315px;
+    height: 291px;
+}
+
+#divReservation_inner_315_291 {
+    width: 100%;
+    /* height: 240px; */
+    margin-bottom: 4px;
+}
+
+#divReservationMain_315_291 {
+    margin: 1%;
+    border: 2px solid rgb(145,185,228);
+    border-radius: 6px;
+}
+
+#divReservation_title_315_291 {
+    background: linear-gradient(to bottom, rgb(252,254,255), rgb(233, 243, 255) 100%);
+    height: 40px;
+    line-height: 37px;
+    padding-left: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0,0,0);
+}
+
+#divReservation_315_291 .divReservationTypes {
+    padding-left: 3%;
+    width: 97%;
+    float: left;
+}
+
+#divReservation_315_291 .divReservationTypes_head {
+    color: rgb(140,85,114);
+    width: 32%;
+    float: left;
+    background-color: rgb(221,221,221);
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid rgb(170,170,170);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#divReservation_315_291 .divReservationTypes_head:hover, #divReservation_315_291 .divReservationTypes_head.active {
+	color: #ffffff;
+	background-color: rgb(24,138,172);
+}
+
+#tbl_reservation_315_291 {
+    width: 89%;
+    margin: 0 auto;
+}
+
+#tbl_reservation_315_291 td {
+	padding: 2px;
+}
+
+#divReservation_315_291 input[type='text'] {
+    width: 125px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    padding: 8px;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: Verdana;
+    background: linear-gradient(to bottom, rgb(252,254,255), rgb(238, 231, 231) 138%);
+}
+
+#divReservation_315_291 input[type='text']:hover {
+	border: 1px solid #aaa;
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+#divReservation_315_291 select {
+    width: 125px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+#divReservation_315_291 select:hover {
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+#btnSearchNow_315_291 {
+    width: 125px;
+    height: 29px;
+    border: 1px solid #F75F5F;
+    background: linear-gradient(to bottom, rgb(234, 220, 1), rgb(232, 171, 0) 138%);
+    border-radius: 4px;
+}
+
+#btnSearchNow_315_291:hover {
+	color: #fff;
+	background: linear-gradient(to bottom, rgb(232, 171, 0), rgb(234, 220, 1) 138%);
+}
+
+/*==========================For Search Box Size 570px*294px=====================*/
+#divReservation_570_294 ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#divReservation_570_294 .li-select-from, #divReservation_570_294 .li-select-to {
+    cursor: pointer;
+}
+
+#divReservation_570_294 .select2-results {
+    max-height: 114px;
+    padding: 0 0 0 4px;
+    margin: 4px 4px 4px 0;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#divReservation_570_294 {
+    width: 570px;
+    height: 294px;
+}
+
+#divReservation_inner_570_294 {
+    width: 100%;
+    /* height: 240px; */
+    margin-bottom: 4px;
+}
+
+#divReservationMain_570_294 {
+    margin: 1%;
+    border: 2px solid rgb(145,185,228);
+    border-radius: 6px;
+}
+
+#divReservation_title_570_294 {
+    background: linear-gradient(to bottom, rgb(252,254,255), rgb(233, 243, 255) 100%);
+    height: 40px;
+    line-height: 37px;
+    padding-left: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0,0,0);
+}
+
+#divReservation_570_294 .divReservationTypes {
+    padding-left: 3%;
+    width: 97%;
+    float: left;
+}
+
+#divReservation_570_294 .divReservationTypes_head {
+    color: rgb(140,85,114);
+    width: 32%;
+    float: left;
+    background-color: rgb(221,221,221);
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid rgb(170,170,170);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#divReservation_570_294 .divReservationTypes_head:hover, #divReservation_570_294 .divReservationTypes_head.active {
+	color: #ffffff;
+	background-color: rgb(24,138,172);
+}
+
+#tbl_reservation_570_294 {
+    width: 89%;
+    margin: 0 auto;
+}
+
+#tbl_reservation_570_294 td {
+	padding: 2px;
+}
+
+#divReservation_570_294 input[type='text'] {
+    width: 200px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    padding: 8px;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: Verdana;
+    background: linear-gradient(to bottom, rgb(252,254,255), rgb(238, 231, 231) 138%);
+}
+
+#divReservation_570_294 input[type='text']:hover {
+	border: 1px solid #aaa;
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+#divReservation_570_294 select {
+    width: 218px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+#divReservation_570_294 select:hover {
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+#btnSearchNow_570_294 {
+    width: 125px;
+    height: 29px;
+    border: 1px solid #F75F5F;
+    background: linear-gradient(to bottom, rgb(234, 220, 1), rgb(232, 171, 0) 138%);
+    border-radius: 4px;
+}
+
+#btnSearchNow_570_294:hover {
+	color: #fff;
+	background: linear-gradient(to bottom, rgb(232, 171, 0), rgb(234, 220, 1) 138%);
+}
